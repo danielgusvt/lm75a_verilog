@@ -10,3 +10,5 @@ The sensor datasheet can be found [here.](https://www.ti.com/lit/ds/symlink/lm75
 ## Notes:
 * In order to show decimal values on 7 segment displays, we had to use LPM_DIVIDE IP core from Intel IP Catalog, which results in little area usage compared to an implementation of a soft core CPU.
 * The sensor is able to work with negative temperatures, but currently we do not support them.
+
+![Photo](Photo.jpg "Photo")
