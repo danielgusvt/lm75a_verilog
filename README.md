@@ -5,4 +5,6 @@ The I2C code comes from the Chinese resources included with the FPGA board.
 
 This project uses Intel Quartus Prime software.
 
-In order to show decimal values on 7 segment displays, we had to use LPM_DIVIDE IP core from Intel IP Catalog.
+## Notes:
+* In order to show decimal values on 7 segment displays, we had to use LPM_DIVIDE IP core from Intel IP Catalog, which results in little area usage compared to an implementation of a soft core CPU.
+* The sensor is able to work with negative temperatures, but currently we do not support them.
